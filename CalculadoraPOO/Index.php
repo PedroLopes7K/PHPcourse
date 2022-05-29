@@ -9,9 +9,9 @@ class Calculo
 		echo "<form method=\"POST\" action=\"Index.php\">";
 		echo "<h2>Programa de Cálculo</h2>";
 		echo "<p>Primeiro numero: ";
-		echo "<input name=\"n1\" type=\"text\" size=\"5\" maxlength=\"5\" /><br />";
+		echo "<input name=\"n1\" type=\"number\" size=\"5\" maxlength=\"5\" /><br />";
 		echo "Segundo numero: ";
-		echo "<input name=\"n2\" type=\"text\" id=\"n2\" size=\"5\" maxlength=\"5\" /><br />";
+		echo "<input name=\"n2\" type=\"number\" id=\"n2\" size=\"5\" maxlength=\"5\" /><br />";
 		echo "Escolha a operação: ";
 		echo "<select name=\"operacao\" id=\"operacao\">";
 		echo "  <option value=\"adicao\" selected=\"selected\">Adição</option>";
