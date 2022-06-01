@@ -36,15 +36,11 @@ echo "<br> <br>";
 <body>
 
   <form action="<?= $_SERVER['PHP_SELF'] ?>" method="POST">
-    <p>Idade: <input type="text" name="idade"><br></p>
+    Idade: <input type="text" name="idade"><br>
     Email: <input type="text" name="email"><br>
-    <p></p>
     Peso: <input type="text" name="peso"><br>
-    <p></p>
     IP: <input type="text" name="ip"><br>
-    <p></p>
     URL: <input type="text" name="url"><br>
-    <p></p>
     <button type="submit" name="enviar">Enviar</button>
   </form>
 </body>
