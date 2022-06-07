@@ -2,11 +2,7 @@
 
 <body>
 
-  <?php
-  /*sanitização
 
-*/
-  ?>
 
   <?php
   if (isset($_POST['enviar'])) {
